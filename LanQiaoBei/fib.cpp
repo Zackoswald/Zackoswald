@@ -10,7 +10,7 @@ int Fib(int n){
 	}
 	int a, b;
 	a = 1, b = 1;
-	for(int i = 3; i < n; i++){
+	for(int i = 3; i <= n; i++){
 		int c = (a + b) % 10007;
 		a = b;
 		b = c;
